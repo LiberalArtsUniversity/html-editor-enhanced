@@ -311,6 +311,7 @@ class _HtmlEditorWidgetMobileState extends State<HtmlEditorWidget> {
                               charCounterCount: false,
                               linkAlwaysBlank: true,
                               pasteDeniedAttrs: ["id"],
+                              htmlAllowedAttrs: ['class', 'title', 'href', 'alt', 'src', 'style', 'uid'],
                               pasteDeniedTags: ["h1", "h2", "h3", "h4", "header", "body"],
                               linkAutoPrefix: "https://",
                               placeholderText: "${widget.htmlEditorOptions.hint ?? ""}",
